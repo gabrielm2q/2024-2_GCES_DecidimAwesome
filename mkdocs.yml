@@ -1,0 +1,44 @@
+site_name: GCES 2024/2 - Decidim Awesome
+
+repo_name: '2024-2_GCES_DecidimAwesome'
+repo_url: 'https://github.com/gabrielm2q/2024-2_GCES_DecidimAwesome'
+
+nav:
+  - Home: 'index.md'
+  - Grupo: 'grupo/about_us.md'
+  - Sprints:
+    - Sprint 1: 'sprints/sprint_1.md'
+    - Sprint 2: 'sprints/sprint_2.md'
+    - Sprint 3: 'sprints/sprint_3.md'
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: red
+      accent: pink
+      toggle:
+        icon: material/weather-sunny
+        name: Ativar modo escuro
+    
+    - scheme: slate
+      primary: red
+      accent: pink
+      toggle:
+        icon: material/weather-night
+        name: Ativar modo claro
+    
+  font:
+    text: Poppins
+    code: Inconsolata
+  
+  font_size:
+    text: 16px
+    code: 14px
+  
+  locale: pt_BR
+
+user_color_mode_toggle: true
+
+plugins:
+  - search
